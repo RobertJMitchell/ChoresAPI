@@ -12,7 +12,7 @@ namespace ChoresApi.Data
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("ChoresApiConnection", throwIfV1Schema: false)
+            : base("ChoresApi315Connection", throwIfV1Schema: false)
         {
         }
 
